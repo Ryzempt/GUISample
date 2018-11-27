@@ -20,6 +20,10 @@ public class SampleFrame extends JFrame
 	
 	private void setupFrame()
 	{
-		
+		this.setContentPane(appPanel);
+		this.setSize(1000, 500);
+		this.setTitle("Second GUI App");
+		this.setResizable(false);
+		this.setVisible(true);
 	}
 }
